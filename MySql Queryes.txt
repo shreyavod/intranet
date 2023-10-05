@@ -1,0 +1,18 @@
+create database usermanagement;
+use usermanagement;
+
+User Management Table->
+CREATE TABLE user_data (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  firstname VARCHAR(255),
+  lastname varchar(255),
+  email varchar(255),
+  select_company varchar(255),
+  gender varchar(255),
+  country varchar(255),
+  about_yourself text,
+  birth_date date,
+  emp_access varchar(255),
+  emp_status varchar(255),
+    PRIMARY KEY (id)
+) AUTO_INCREMENT = 1;

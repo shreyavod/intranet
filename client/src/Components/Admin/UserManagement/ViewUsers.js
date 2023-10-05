@@ -255,6 +255,7 @@ const ViewUsers = () => {
 												variant="body1"
 												color="text.primary"
 												mr={0.5}
+										
 											>
 												First Name:
 											</Typography>
@@ -263,7 +264,7 @@ const ViewUsers = () => {
 									}
 								/>
 							</ListItem>
-							<ListItem alignItems="flex-start" >
+							<ListItem alignItems="flex-start"  >
 
 								<ListItemText
 
